@@ -1,0 +1,12 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    text-indent: 10px;
+    /*
+        text-indent: tag que alinha os parágrafos de um texto, nesse caso alinhei com a medida pixel
+    */
+}
+h1{
+    text-align: center;
+}

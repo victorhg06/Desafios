@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+</head>
+<style>
+    main{
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: dimgray;
+        margin: 0px;
+    }
+
+    header{
+        background-color: white;
+        padding: 10px;
+        margin: 0px;
+        text-align: center;
+    }
+
+    nav{
+        background-color: rgb(102, 102, 102);
+        padding: 3px;
+        margin: 30px;
+        font-weight: bold;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.407);
+    }
+
+    nav > a{
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+        margin-right: 30px;
+    }
+
+    nav > a:hover{
+        text-decoration: underline;
+        color: blue;
+    }
+
+    section#assuntos >p{
+        text-align: center;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+    }
+
+    section#assuntos:hover{
+        color: red;
+    }
+
+    article{
+        background-color: lightgray;
+        padding: 5px;
+    }
+
+    article > aside{
+        background-color: rgb(171, 169, 169);
+
+    }
+
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 4px;
+        margin: 0px;
+    }
+
+    footer > p{
+        margin: 0px;
+    }
+</style>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <P>
+                <a href="#">ESPORTES</a>
+                <a href="#">TECNOLOGIA</a>
+                <a href="#">POLÍTICA</a>
+            </P>
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto necessitatibus aliquid earum nesciunt alias. Nisi ratione unde, in nemo quam alias consectetur porro ipsa architecto molestias sit minima rem voluptate?</p>
+                <aside>
+                    <p>Artigo escrito por Victor Hugo da Silva</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Victor Hugo da Silva</p>
+    </footer>
+</body>
+</html>

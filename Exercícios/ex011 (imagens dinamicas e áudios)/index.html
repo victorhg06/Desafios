@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+    <link rel="shortcut icon" href="html.ico.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    Vamos abrir essa imagem em vários dispositivos para testar a responsividade do site, devemos utilizar a tag &lt;picture&gt;
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+        <h1>Reproduzir áudios</h1>
+        <p>Vamos aprender a reproduzir áudios usando a tag &lt;audio&gt;</p>
+        <audio src="midia/happy-mistake.mp3"controls  loop></audio>
+        <a href="midia/happy-mistake.mp3" target="_blank"type="external">Clique aqui para realizar o download</a>
+</body>
+</html>

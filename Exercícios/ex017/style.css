@@ -1,0 +1,18 @@
+body{
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    background-image: linear-gradient(to right, #019587, #A6BC09, #CCEA8D);
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font: italic bolder 2em,;
+}
+h1{
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+h2{
+    font: italic bolder 2em, ;
+}

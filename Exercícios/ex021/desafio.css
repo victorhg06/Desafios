@@ -1,0 +1,63 @@
+@font-face {
+    font-family:"Minha Fonte" ;
+    src: url("idroid.otf");
+}
+header{
+    background-image: linear-gradient(to right, #1B5936,#3DD973,#36BF66);
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(253, 248, 248);
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #22733F;
+    margin: -8px;
+}
+
+header > nav{
+    text-align: justify;
+    margin: auto;
+}
+
+main{
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 0px 0px 0px 1px;
+    }
+
+    h1#titulo{
+        font-family: "Minha Fonte";
+        color: #22733F;
+    }
+
+    h2{
+        font-family: "Minha Fonte";
+        color: #22733F;
+        background-color: #3DD973;
+    }
+
+    section#video{
+        padding: 20px;
+        background-color: #1B5936;
+    }
+
+    h3{
+        background-color: #2ba355d9;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    
+    section#novacaixa{
+        padding: 20px;
+        background-color: #3DD973;
+        margin: auto;
+    }
+
+    footer{
+        text-align: center;
+        background-color:#1B5936;
+        padding: 0px;
+        margin: 10px 1px 1px 1px;
+    }
